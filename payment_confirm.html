@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Payment Confirm</title>
 </head>
 <body>
-    <div id="logo">
-
-    </div>
-    <div id="card">
-        <div id="email-icon">
+    <div class="container">
+        <div id="logo">
 
         </div>
-        <h1>We received your payment </h1>
-        <p> We're getting in touch to let you know we received your payment of <br>
-        of {{$25}} for the {{business}} package.
-        </p>
-        <p id="left">Thanks, <br> The Vobb Team</p>
+        <div id="card-column">
+            <div id="icon-top"><img src="img/ford.jpg" alt=""></div>
+            <h1>We received your payment </h1>
+            <p> We're getting in touch to let you know we received your payment of <br>
+            of {{$25}} for the {{business}} package.
+            </p>
+            <p id="left-p">Thanks, <br> The Vobb Team</p>
+            <p> If you would love to cancel your subscription, please contact <br>
+            Support at support@vobb.io
+            </p>
 
+        </div>
+        <div id="footer">
+            <p> Copyright @2021 Vobb llc <br> 71-75 shelton Street Covent Garden London, WC2H 9jQ </p>
+            <p> You are recieving this email because you opted in via our website <br> www.vobb.io </p>
+        </div>
     </div>
-    <div id="footer">
-        <p> Copyright @2021 Vobb llc <br> 71-75 shelton Street Covent Garden London, WC2H 9jQ </p>
-        <p> You are recieving this email because you opted in via our website <br> www.vobb.io </p>
-     </div>
 </body>
 </html>

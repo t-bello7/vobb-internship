@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 20vh;
+    background-color: #F6F7FC;
+}
+/* #container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+#card {
+    background-color: #FFFFFF;
+    display: flex;
+    width:fit-content;
+    height:max-content;
+    margin:0 auto;
+    padding: 20vh;
+}
+
+
+#card #icon-align img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#card #card-content form button {
+    background-color:  #6C6AD6;
+    padding: 20px 30px 20px 30px;
+}
+
+#card #card-content button{
+    color: #FFFFFF;
+    background-color: #4C44DC;
+    padding: 20px 30px 20px 30px;
+    border: none;
+}
+
+#card-column{
+    background-color: #FFFFFF;
+    display: flex;
+    width:fit-content;
+    height:max-content;
+    margin:0 auto;
+    padding: 20vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#card-column #icon-top img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#card-column #total{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-column button{
+    padding: 20px 30px 20px 30px;
+    background-color:  #6C6AD6;
+    color: white;
+    border: none;
+
+}
+
+#card-column #buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-column #buttons #btn-left{
+    color: white;
+    background-color: #6C6AD6;
+    padding: 20px 30px 20px 30px;
+    border: none ;
+}
+
+#card-column #buttons #btn-right{
+    color: white;
+    background-color: #FC8D89;
+    padding: 20px 30px 20px 30px;
+    border: none;
+}
+
+#card-column #left-p{
+    text-align: left;
+}
+
+
+#footer{
+    text-align: center;
+}
