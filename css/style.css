@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     margin: 0;
     padding: 20vh;
     background-color: #F6F7FC;
@@ -98,4 +99,26 @@ body{
 
 #footer{
     text-align: center;
+}
+
+
+/* media query */
+
+@media (max-width:960px) {
+    body{
+        width: 100%;
+    }
+    #card{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    #card #icon-align img{
+        max-height: 200px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width:480){
+
 }
