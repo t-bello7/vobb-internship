@@ -20,6 +20,9 @@ body{
 }
 
 
+#card #icon-align {
+    margin-right: 25px;    
+}
 #card #icon-align img{
     width: 300px;
     height: 300px;
